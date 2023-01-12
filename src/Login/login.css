@@ -1,0 +1,95 @@
+.Login-area{
+    
+    width: 40%;
+    height: 40rem;
+
+    background: #FFFFFF;
+    /* Normal box */
+
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2% 5rem;
+}
+
+#topImag{
+    margin: 2rem;
+}
+
+.inputs{
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+    width:90%;
+    height: 2rem;
+    margin-top: 2%;
+}
+
+label{
+    color: #545454;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85%;
+   
+}
+
+#get-started{
+    background: #3766E8;
+    border-radius: 5px;
+    border-width: 0;
+    width: 100%;
+    height: 2.3rem;
+    color: #FFFFFF;
+    margin-top:10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+#get-started:hover{
+    background:#0B4C8D;
+
+}
+
+.button-cont{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.comp-size-btn{
+    width:auto;
+    height: 1.5rem;
+    font-size: 80%;
+    margin-right: 2rem;
+    border-width: 0;
+}
+
+.comp-size-btn-clicked{
+    width:auto;
+    height: 1.5rem;
+    font-size: 80%;
+    margin-right: 2rem;
+    border-width: 0;
+    background: #3766E8;
+}
+
+.comp-size-btn:hover{
+    background: #8C8E90;
+    transition: 0.7s;
+}
+
+.comp-size-btn:visited{
+    background: #3766E8;
+}
+
+.vis-opt{
+    color: #A0A0A0;
+}

@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from './Login/Login';
+import rect from './Resources/rect.png'
+import logoo from "./Resources/logo.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundImage:"url('./Resources/rect.png')"}}>
+      <img id="Logo-img" src={logoo}></img>
+      <Login />
+      <footer><p>Terms of Use | Privacy Policy</p></footer>
     </div>
   );
 }
